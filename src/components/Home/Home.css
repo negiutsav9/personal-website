@@ -1,0 +1,50 @@
+#home{
+    background: linear-gradient(-45deg, #0f124a, #1b2360, #515b80, #758391, #e5e3b0);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#intro{
+    margin-top: 8%;
+}
+
+#sub_intro{
+    font-size: 25px;
+}
+
+#intro_body{
+    font-size: 55px;
+}
+
+#pic {
+    height: 375px;
+    width: 375px;
+    pointer-events: none;
+    border-radius: 50%;
+    background: url(./photo.png);
+    background-size: 86%;
+    background-position-x: 50%;
+    opacity: 0.8;
+    display: inline-flex;
+}
+
+#interest{
+    font-size: 25px;
+    margin-left: 5px auto;
+}
+
+@media screen and (max-width: 700px) {
+    #pic{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20%;
+    pointer-events: none;
+    text-align: center;
+    border-radius: 50%;
+    background: url(./photo.png);
+    background-size: 86%;
+    background-position-x: 50%;
+    opacity: 0.8;
+    display: inline-flex;
+    }
+}
