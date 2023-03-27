@@ -1,10 +1,10 @@
 import React from 'react';
-import '../bootstrap.css'
 
 export default function Skills(){
     return (
-        <div>
-            Skills
+        <div id='content' class='container-fluid text-light'>
+            <h3 class='display-5'>Skills</h3>
+            <div class="line-1"/>
         </div>
     )
 }

@@ -1,15 +1,17 @@
-import {React, useEffect, useState} from 'react';
+import {React} from 'react';
 import './Home.css'
 import Navbar from '../Navbar';
-import photo from './photo.png'
+import { Link } from 'react-router-dom';
 
 export default function Home(props){
 
-
     return (
         <div id='home'>
-            <Navbar color={props.color}/>
+
+            <Navbar isHome={true}/>
+
             <div id='intro' class="container-fluid text-light">
+
                 <div class="row row-cols-1 row-cols-md-2">
                     <div id='img_column' class="col-lg-6 text-center">
                         <div id='pic'/>
@@ -31,6 +33,24 @@ export default function Home(props){
                                 <li id='interest'>Quantum Theory</li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+
+                <div id='button_rows' class='row'>
+                    <div class='col'>
+                        <button>
+                            <Link class="nav-link" to="/about">About</Link>
+                        </button>
+                    </div>
+                    <div class='col'>
+                        <button>
+                            <Link class="nav-link" to="/projects">Project</Link>
+                        </button>
+                    </div>
+                    <div class='col'>
+                        <button>
+                            <Link class="nav-link" to="/contact">Contact</Link>
+                        </button>
                     </div>
                 </div>
 

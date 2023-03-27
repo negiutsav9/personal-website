@@ -1,11 +1,11 @@
 #home{
-    background: linear-gradient(-45deg, #0f124a, #1b2360, #515b80, #758391, #e5e3b0);
+    
     min-height: 100vh;
     min-width: 100vw;
 }
 
 #intro{
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 #sub_intro{
@@ -48,3 +48,25 @@
     display: inline-flex;
     }
 }
+
+#button_rows{
+    margin-top: 5%;
+    text-align: center;
+}
+
+button{
+    border-radius: 30px;
+    margin: 5px auto;
+    width: 20vw;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+button:hover{
+    background-color: white;
+    color:#515b80;
+    transition: 0.5s;
+}
+
