@@ -1,19 +1,21 @@
 import React from 'react';
-import Navbar from '../Navbar';
 import Background from './Background';
 import Education from './Education';
-import Work from './Work';
+import Experience from './Experience';
 import Skills from './Skills';
 import './About.css'
 
 export default function About(props){
     return (
-        <div id='about-main'>
-            <Navbar/>
-            <Background/>
-            <Education/>
-            <Work/>
-            <Skills/>
+        <div>
+            <div id='about-main'>
+                <h3 class='display-4 text-light'>About</h3>
+                <div class="line" style={{marginBottom:50}}/>
+                <Background/>
+                <Education/>
+                <Experience/>
+                <Skills/>
+            </div>
         </div>
     )
 }

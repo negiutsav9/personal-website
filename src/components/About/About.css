@@ -1,20 +1,144 @@
 #about-main{
-    min-width: 100vw;
-    min-height: 100vh;
+    display: inline-block;
+    margin-top:100px;
+    background: transparent;
+    z-index: 1;
+    scroll-behavior: smooth;
+    font-size: 20px;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    padding-left: 19px;
+    padding-right: 19px;
 }
 
-#content{
-    padding-left: 30px;
-}
 
-.line-1 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    height: 1px;
-    width: 75vw;
+.line {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 3px;
     background: white;
 }
 
-p{
-    font-size: 25px;
+.line-1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 2px;
+    background: white;
+}
+
+#body{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#name{
+    font-size: 20px;
+}
+
+.accordion-item{
+    background: transparent;
+    border:none;
+}
+
+.accordion-header{
+    background: transparent;
+}
+
+#button_1{
+    background: transparent;
+}
+
+#button_2{
+    background: transparent;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#school_1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#name:hover{
+    text-decoration: underline;
+}
+
+#logo_uw {
+    height: 179px;
+    width: 300px;
+    background: url(./assets/crest.png);
+    transition: 0.6s ease all;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#exp_div{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#logo_1 {
+    height: 225px;
+    width: 225px;
+    background: url(./assets/skunkworks.png);
+    transition: 0.6s ease all;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+#logo_2 {
+    height: 170px;
+    width: 320px;
+    background: url(./assets/doit.png);
+    transition: 0.6s ease all;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo_3 {
+    height: 224px;
+    width: 229px;
+    background: url(./assets/ssec.png);
+    transition: 0.6s ease all;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+#descriptionRow{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#skill_img{
+    padding: 5px;
+    margin-right: 10px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#header{
+   margin-left: -20px;
+   margin-bottom: -22.5px;
+}
+
+#skill{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 25px;
 }

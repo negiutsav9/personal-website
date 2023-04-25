@@ -1,5 +1,37 @@
 .App{
-    min-width: 100vw;
-    min-height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
     background: linear-gradient(-45deg, #0f124a, #1b2360, #515b80, #758391, #e5e3b0);
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@100&family=Sacramento&display=swap');
+
+#navbar{
+    backdrop-filter: blur(10px);    
+}
+
+#title, #offcanvasDarkNavbarLabel{
+    font-family: 'Allura', cursive;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+#links{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.navbar-toggler{
+    margin-right: 10%;
+    width: 47px;
+    height: 34px;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }

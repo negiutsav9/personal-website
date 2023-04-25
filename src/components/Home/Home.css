@@ -1,15 +1,12 @@
 #home{
-    
     min-height: 100vh;
     min-width: 100vw;
-}
-
-#intro{
-    margin-top: 5%;
+    padding-top: 190px;
 }
 
 #sub_intro{
     font-size: 25px;
+    padding-bottom: 30px;
 }
 
 #intro_body{
@@ -30,14 +27,20 @@
 
 #interest{
     font-size: 25px;
-    margin-left: 5px auto;
+    margin-left: 20px auto;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 992px) {
+    #home{
+        min-height: 100vh;
+        min-width: 100vw;
+        padding-top: 100px;
+    }
+
     #pic{
     height: 200px;
     width: 200px;
-    margin-bottom: 20%;
+    margin-bottom: 50px;
     pointer-events: none;
     text-align: center;
     border-radius: 50%;
@@ -49,24 +52,12 @@
     }
 }
 
-#button_rows{
-    margin-top: 5%;
-    text-align: center;
-}
+
 
 button{
-    border-radius: 30px;
-    margin: 5px auto;
-    width: 20vw;
-    padding: 10px;
+    border:none;
     background: transparent;
     color: white;
-    border-color: white;
 }
 
-button:hover{
-    background-color: white;
-    color:#515b80;
-    transition: 0.5s;
-}
 
