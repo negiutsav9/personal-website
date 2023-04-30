@@ -1,6 +1,6 @@
 #main{
     display: inline-block;
-    margin-top:100px;
+    margin-top:87px;
     background: transparent;
     z-index: 1;
     scroll-behavior: smooth;
@@ -11,4 +11,105 @@
     padding-right: 19px;
     min-width: 100vw;
     min-height: 100vh;
+}
+
+#inputName{
+    background: transparent;
+}
+
+#inputEmail{
+    background: transparent;
+}
+
+#inputSubject{
+    background: transparent;
+    
+}
+
+#inputMessage{
+    background: transparent;
+}
+
+form{
+    margin-left: 5px;
+}
+
+#submitButton {
+    border-radius: 10px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    margin: 28px auto;
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+    transition: 0.5s;
+}
+
+#submitButton:hover,
+#resumeButton:hover,
+#linkedinButton:hover,
+#githubButton:hover{
+    background-color: whitesmoke;
+    color: #515b80;
+}
+
+#resumeButton {
+    border-radius: 10px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+    transition: 0.5s;
+}
+
+#linkedinButton {
+    border-radius: 10px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+    transition: 0.5s;
+}
+
+#githubButton {
+    border-radius: 10px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 992px) {
+   #inputName{
+        width: 50%;
+   }
+   #inputEmail{
+        width: 50%;
+   }
+   #submitButton{
+        width: 25%;
+        height: 50px;
+        display: inline-block;
+        justify-content: left;  
+        align-items: left; 
+   }
+   #resumeButton{
+        width: 80%;
+   }
+   #linkedinButton{
+        width: 80%;
+   }
+   #githubButton{
+        width: 80%;
+    }
 }
