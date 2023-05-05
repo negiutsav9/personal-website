@@ -1,5 +1,4 @@
 #home{
-    min-height: 88vh;
     min-width: 100vw;
     padding-top: 190px;
 }
@@ -32,8 +31,6 @@
 
 @media screen and (max-width: 992px) {
     #home{
-        min-height: 100vh;
-        min-width: 100vw;
         padding-top: 150px;
     }
 
@@ -53,15 +50,13 @@
 }
 
 
-  @media (min-width: 700px){  
+  @media (min-width: 1100px){  
     #interests{
       -webkit-columns: 2;
       -moz-columns: 2;
       columns: 2;
     }
   }
-
-
 
 button{
     border:none;
