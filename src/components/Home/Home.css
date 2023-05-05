@@ -1,5 +1,5 @@
 #home{
-    min-height: 100vh;
+    min-height: 88vh;
     min-width: 100vw;
     padding-top: 190px;
 }
@@ -51,6 +51,15 @@
     display: inline-flex;
     }
 }
+
+
+  @media (min-width: 700px){  
+    #interests{
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      columns: 2;
+    }
+  }
 
 
 

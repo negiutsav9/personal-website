@@ -18,7 +18,8 @@ export default function Home(props){
                             <h6 id="sub_intro" class="display-6">
                                 Aspiring Software Developer and Machine Learning Engineer
                             </h6>
-                            <ul>
+                            <span class='display-6' style={{fontSize:30, }}>My topic of interests are</span>
+                            <ul id="interests">
                                 <li id='interest'>Cloud Computing</li>
                                 <li id='interest'>Data Analysis</li>
                                 <li id='interest'>Machine Learning</li>
