@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea337ca4.css",
-    "main.js": "/portfolio/static/js/main.50022685.js",
+    "main.css": "/portfolio/static/css/main.77aa781d.css",
+    "main.js": "/portfolio/static/js/main.8065ea0b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/osm_bg.png": "/portfolio/static/media/osm_bg.325298aac3769d8453f4.png",
     "static/media/face_mask.png": "/portfolio/static/media/face_mask.328e8b0869a4a325fd06.png",
@@ -25,18 +25,19 @@
     "static/media/icon_docker.png": "/portfolio/static/media/icon_docker.4563cbea46232afad079.png",
     "static/media/icon_software.png": "/portfolio/static/media/icon_software.cbfdeec96417c6f65fb6.png",
     "static/media/icon_systems.png": "/portfolio/static/media/icon_systems.73585624915ba50c19cb.png",
+    "static/media/github_icon.png": "/portfolio/static/media/github_icon.c7f326afed1d86a27724.png",
     "static/media/icon_web.png": "/portfolio/static/media/icon_web.18d3d11d07f1af81e2a4.png",
     "static/media/icon_pytorch.png": "/portfolio/static/media/icon_pytorch.97ccbc4002fa92d1ecbf.png",
     "static/media/ios_logo.png": "/portfolio/static/media/ios_logo.8e4c3cd0b42ab71364b2.png",
     "static/media/icon_python.png": "/portfolio/static/media/icon_python.6e06357c56799c8d7097.png",
     "static/media/icon_android.png": "/portfolio/static/media/icon_android.ff065a5d16b8c71eef21.png",
     "index.html": "/portfolio/index.html",
-    "main.ea337ca4.css.map": "/portfolio/static/css/main.ea337ca4.css.map",
-    "main.50022685.js.map": "/portfolio/static/js/main.50022685.js.map",
+    "main.77aa781d.css.map": "/portfolio/static/css/main.77aa781d.css.map",
+    "main.8065ea0b.js.map": "/portfolio/static/js/main.8065ea0b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea337ca4.css",
-    "static/js/main.50022685.js"
+    "static/css/main.77aa781d.css",
+    "static/js/main.8065ea0b.js"
   ]
 }
