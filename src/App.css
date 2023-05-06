@@ -3,6 +3,7 @@
     min-height: 100vh;
     background: linear-gradient(-45deg, #0f124a, #1b2360, #515b80, #758391, #e5e3b0);
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@100&family=Sacramento&display=swap');

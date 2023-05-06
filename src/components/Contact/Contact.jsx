@@ -3,7 +3,8 @@ import './Contact.css'
 import resume_icon from "./assets/resume_icon.png"
 import github_icon from "./assets/github_icon.png"
 import linkedin_icon from "./assets/linkedin_icon.png"
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from '@formspree/react'
+import resume from "./assets/Resume_May6.pdf"
 
 
 export default function Contact(){
@@ -65,11 +66,13 @@ export default function Contact(){
                     </form>
                 </div>
                 <div class="col col-lg-6">
-                    <div style={{display:'flex', justifyContent:'center', alignItems:'center', margin:35}}>
-                        <button id="resumeButton">
-                            <img id='resume_icon' src={resume_icon} alt=''/>
-                            View my Resume
-                        </button>
+                    <div>
+                        <a href={resume} without rel="noopener noreferrer" target="_blank" style={{display:'flex', justifyContent:'center', alignItems:'center', margin:35}}>
+                            <button id="resumeButton">
+                                <img id='resume_icon' src={resume_icon} alt=''/>
+                                View my Resume
+                            </button>
+                        </a>
                     </div>
                     <div>
                         <a href='https://www.linkedin.com/in/unegi/' style={{display:'flex', justifyContent:'center', alignItems:'center', margin:35}}>
