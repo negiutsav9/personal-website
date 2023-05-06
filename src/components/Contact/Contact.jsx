@@ -40,7 +40,7 @@ export default function Contact(){
             <h3 class='display-4 text-light'>Contact</h3>
             <div class="line" style={{marginBottom:25}}/>
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col col-lg-7">
+                <div class="col col-lg-6">
                     <form id="form" onSubmit={handleSubmit}>
                         <div class="mb-3">
                             <label for="InputName" class="form-label text-light">Name</label>
@@ -64,7 +64,7 @@ export default function Contact(){
                         <button type="submit" id="submitButton" disabled={state.submitting}>Submit</button>
                     </form>
                 </div>
-                <div class="col col-lg-5">
+                <div class="col col-lg-6">
                     <div style={{display:'flex', justifyContent:'center', alignItems:'center', margin:35}}>
                         <button id="resumeButton">
                             <img id='resume_icon' src={resume_icon} alt=''/>

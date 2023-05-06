@@ -1,7 +1,9 @@
 #home{
     min-height: 88vh;
-    min-width: 100vw;
     padding-top: 190px;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    overflow: hidden;
 }
 
 #sub_intro{
