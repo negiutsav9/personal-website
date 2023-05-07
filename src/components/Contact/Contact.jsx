@@ -4,7 +4,7 @@ import resume_icon from "./assets/resume_icon.png"
 import github_icon from "./assets/github_icon.png"
 import linkedin_icon from "./assets/linkedin_icon.png"
 import { useForm, ValidationError } from '@formspree/react'
-import resume from "./assets/Resume_May6.pdf"
+import resume from "./assets/UN_Resume.pdf"
 
 
 export default function Contact(){
